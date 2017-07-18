@@ -1,0 +1,25 @@
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/bin/Debug/ChartNQA.exe.config
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/bin/Debug/ChartNQA.exe
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/bin/Debug/ChartNQA.pdb
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/bin/Debug/itextsharp.dll
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/bin/Debug/itextsharp.xml
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.About.resources
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.Form1.resources
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.Properties.Resources.resources
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csproj.GenerateResource.Cache
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.exe
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.pdb
+C:/Users/Tybbow/Documents/Visual Studio 2017/Projects/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csprojResolveAssemblyReference.cache
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/bin/Debug/ChartNQA.exe.config
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/bin/Debug/ChartNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/bin/Debug/ChartNQA.pdb
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/bin/Debug/itextsharp.dll
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csprojResolveAssemblyReference.cache
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csproj.ChartNQA.exe.config
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.About.resources
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.Form1.resources
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.Properties.Resources.resources
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csproj.GenerateResource.Cache
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.csproj.CoreCompileInputs.cache
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.exe
+/Users/tybbow/Documents/Projects/Csharp/ChartNQA/ChartNQA/obj/Debug/ChartNQA.pdb

@@ -1,0 +1,40 @@
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\bin\Release\ChartNQA.exe.config
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\bin\Release\ChartNQA.exe
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\bin\Release\ChartNQA.pdb
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\bin\Release\itextsharp.dll
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\bin\Release\itextsharp.xml
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.About.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.Form1.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.Properties.Resources.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.csproj.GenerateResource.Cache
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.exe
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\ChartNQA\ChartNQA\obj\Release\ChartNQA.pdb
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.csprojResolveAssemblyReference.cache
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.About.resources
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.Form1.resources
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.Properties.Resources.resources
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.csproj.GenerateResource.Cache
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.exe
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\ChartNQA.exe.config
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\ChartNQA.exe
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\ChartNQA.pdb
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\itextsharp.dll
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\mscorlib.dll
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\fr\mscorlib.resources.dll
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\normidna.nlp
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\normnfc.nlp
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\normnfd.nlp
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\normnfkc.nlp
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\bin\Release\normnfkd.nlp
+O:\CNMOR\EXPERT-MES-EQ-MOBILE\PRIVE\2 - Documentations - Outils\2 - Outils - Logiciels\ChartNQA\src ChartNQA\ChartNQA\obj\Release\ChartNQA.pdb
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\bin\Release\ChartNQA.exe.config
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\bin\Release\ChartNQA.exe
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\bin\Release\ChartNQA.pdb
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\bin\Release\itextsharp.dll
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.csprojResolveAssemblyReference.cache
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.About.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.Form1.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.Properties.Resources.resources
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.csproj.GenerateResource.Cache
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.exe
+C:\Users\Tybbow\Documents\Visual Studio 2017\Projects\chartNQA-master\ChartNQA\obj\Release\ChartNQA.pdb
