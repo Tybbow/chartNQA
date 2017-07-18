@@ -49,13 +49,7 @@ namespace ChartNQA
                     countPoints = UpdatePoints(reader, splitLine, strItem, dateto, datefrom);
                 }
             }
-            Mychart.ChartAreas[0].AxisX.Interval = Mychart.Series[0].Points.Count / nbPoints;
-            Mychart.ChartAreas[0].AxisX.MajorGrid.LineWidth = AxisXGrid;
-            Mychart.ChartAreas[0].AxisY.MajorGrid.LineWidth = AxisYGrid;
-            Mychart.ChartAreas[0].AxisX.LabelStyle.Angle = -90;
-            if (!string.IsNullOrEmpty(AxisY))
-                Mychart.ChartAreas[0].AxisY.Title = AxisY.ToString();
-
+            this.UpdateConstante(nbPoints);
             return (countPoints);
         }
 
@@ -80,6 +74,17 @@ namespace ChartNQA
 				}
 			}
             return (countPoints);
+        }
+
+
+        private void UpdateConstante(int nbPoints)
+        {
+            Mychart.ChartAreas[0].AxisX.Interval = Mychart.Series[0].Points.Count / nbPoints;
+            Mychart.ChartAreas[0].AxisX.MajorGrid.LineWidth = AxisXGrid;
+            Mychart.ChartAreas[0].AxisY.MajorGrid.LineWidth = AxisYGrid;
+            Mychart.ChartAreas[0].AxisX.LabelStyle.Angle = -90;
+            if (!string.IsNullOrEmpty(AxisY))
+                Mychart.ChartAreas[0].AxisY.Title = AxisY.ToString();
         }
 
         private void addPub()
