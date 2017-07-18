@@ -173,29 +173,14 @@ namespace ChartNQA
         private string StrAxisy(string strItem, string sendPacketR)
         {
 			string tmp = string.Empty;
-			if (strItem.Contains("Min") || strItem.Contains("Max") || strItem.Contains("Avr"))
-				tmp = "Response Time (ms)";
 			if (strItem.Contains("Pct") || strItem.Contains("PacketLost"))
-			{
-				if (!string.IsNullOrEmpty(tmp))
-					tmp = tmp + " :: Pourcentage - SendPackets :" + sendPacketR;
-				else
-					tmp = "Pourcentage - SendPackets : " + sendPacketR;
-			}
-			if (strItem.Contains("Fails") || strItem.Contains("PacketLate") || strItem == "PacketSDLost" || strItem == "PacketDSLost" || strItem == "PacketUnkLost")
-			{
-				if (!string.IsNullOrEmpty(tmp))
-					tmp = tmp + " :: Error(s)";
-				else
-					tmp = "Error(s)";
-			}
-			if (strItem.Contains("RTT"))
-			{
-				if (!string.IsNullOrEmpty(tmp))
-					tmp = tmp + " :: RTTNumber";
-				else
-					tmp = "RTTNumber";
-			}
+				tmp = "Pourcentage - SendPackets : " + sendPacketR;
+			else if (strItem.Contains("Fails") || strItem.Contains("PacketLate") || strItem == "PacketSDLost" || strItem == "PacketDSLost" || strItem == "PacketUnkLost")
+				tmp = "Error(s)";
+			else if (strItem.Contains("RTT"))
+				tmp = "RTTNumber";
+            else
+                tmp = "Response Time (ms)";
             return (tmp);
         }
 
