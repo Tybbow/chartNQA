@@ -34,7 +34,9 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.picturePDF = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.picturePNG = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.labeltrack = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,15 +57,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.picturePDF = new System.Windows.Forms.PictureBox();
-            this.picturePNG = new System.Windows.Forms.PictureBox();
+            this.checkLabelMax = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePDF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePNG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackPoints)).BeginInit();
             this.groupOpt.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picturePDF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturePNG)).BeginInit();
             this.SuspendLayout();
             // 
             // chart1
@@ -111,6 +112,18 @@
             this.panel1.Size = new System.Drawing.Size(200, 758);
             this.panel1.TabIndex = 1;
             // 
+            // picturePDF
+            // 
+            this.picturePDF.BackColor = System.Drawing.SystemColors.Window;
+            this.picturePDF.Enabled = false;
+            this.picturePDF.Image = global::ChartNQA.Properties.Resources.PDF;
+            this.picturePDF.Location = new System.Drawing.Point(68, 703);
+            this.picturePDF.Name = "picturePDF";
+            this.picturePDF.Size = new System.Drawing.Size(48, 48);
+            this.picturePDF.TabIndex = 5;
+            this.picturePDF.TabStop = false;
+            this.picturePDF.Click += new System.EventHandler(this.picturePDF_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -121,6 +134,19 @@
             this.label8.Size = new System.Drawing.Size(14, 13);
             this.label8.TabIndex = 21;
             this.label8.Text = "1";
+            // 
+            // picturePNG
+            // 
+            this.picturePNG.BackColor = System.Drawing.SystemColors.Window;
+            this.picturePNG.Enabled = false;
+            this.picturePNG.Image = global::ChartNQA.Properties.Resources.PNG;
+            this.picturePNG.InitialImage = null;
+            this.picturePNG.Location = new System.Drawing.Point(11, 703);
+            this.picturePNG.Name = "picturePNG";
+            this.picturePNG.Size = new System.Drawing.Size(48, 48);
+            this.picturePNG.TabIndex = 4;
+            this.picturePNG.TabStop = false;
+            this.picturePNG.Click += new System.EventHandler(this.picturePNG_Click);
             // 
             // label7
             // 
@@ -168,12 +194,13 @@
             // 
             // groupOpt
             // 
+            this.groupOpt.Controls.Add(this.checkLabelMax);
             this.groupOpt.Controls.Add(this.checkboxGridY);
             this.groupOpt.Controls.Add(this.checkboxGridX);
             this.groupOpt.Controls.Add(this.CheckboxSta);
             this.groupOpt.Location = new System.Drawing.Point(5, 522);
             this.groupOpt.Name = "groupOpt";
-            this.groupOpt.Size = new System.Drawing.Size(190, 109);
+            this.groupOpt.Size = new System.Drawing.Size(190, 143);
             this.groupOpt.TabIndex = 16;
             this.groupOpt.TabStop = false;
             this.groupOpt.Text = "Options :";
@@ -319,30 +346,16 @@
             this.aboutToolStripMenuItem.Text = "About !";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // picturePDF
+            // checkLabelMax
             // 
-            this.picturePDF.BackColor = System.Drawing.SystemColors.Window;
-            this.picturePDF.Enabled = false;
-            this.picturePDF.Image = global::ChartNQA.Properties.Resources.PDF;
-            this.picturePDF.Location = new System.Drawing.Point(68, 703);
-            this.picturePDF.Name = "picturePDF";
-            this.picturePDF.Size = new System.Drawing.Size(48, 48);
-            this.picturePDF.TabIndex = 5;
-            this.picturePDF.TabStop = false;
-            this.picturePDF.Click += new System.EventHandler(this.picturePDF_Click);
-            // 
-            // picturePNG
-            // 
-            this.picturePNG.BackColor = System.Drawing.SystemColors.Window;
-            this.picturePNG.Enabled = false;
-            this.picturePNG.Image = global::ChartNQA.Properties.Resources.PNG;
-            this.picturePNG.InitialImage = null;
-            this.picturePNG.Location = new System.Drawing.Point(11, 703);
-            this.picturePNG.Name = "picturePNG";
-            this.picturePNG.Size = new System.Drawing.Size(48, 48);
-            this.picturePNG.TabIndex = 4;
-            this.picturePNG.TabStop = false;
-            this.picturePNG.Click += new System.EventHandler(this.picturePNG_Click);
+            this.checkLabelMax.AutoSize = true;
+            this.checkLabelMax.Location = new System.Drawing.Point(6, 92);
+            this.checkLabelMax.Name = "checkLabelMax";
+            this.checkLabelMax.Size = new System.Drawing.Size(94, 17);
+            this.checkLabelMax.TabIndex = 18;
+            this.checkLabelMax.Text = "Display values";
+            this.checkLabelMax.UseVisualStyleBackColor = true;
+            this.checkLabelMax.CheckStateChanged += new System.EventHandler(this.checkLabelMax_CheckStateChanged);
             // 
             // Form1
             // 
@@ -364,13 +377,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePDF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePNG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackPoints)).EndInit();
             this.groupOpt.ResumeLayout(false);
             this.groupOpt.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picturePDF)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturePNG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -403,6 +416,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textTitle;
         private System.Windows.Forms.CheckBox checkboxGridY;
+        private System.Windows.Forms.CheckBox checkLabelMax;
     }
 }
 

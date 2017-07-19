@@ -15,6 +15,7 @@ namespace ChartNQA
         public string Title = string.Empty;
         public int AxisXGrid = 0;
         public int AxisYGrid = 0;
+        public bool showLabelMax = false;
         public Chart Mychart { get; set; }
 
         public MyChart(Chart chart)
@@ -58,8 +59,13 @@ namespace ChartNQA
             int countPoints = 0;
             int headerDate = selectNumDate(reader.headers);
             int itemIndex = selectIndex(reader.headers, strItem);
-
-			for (int i = 1; i < reader.lines.Length; i++)
+            if (strItem.Contains("Max"))
+                Mychart.Series[strItem].Color = Color.Red;
+            if (strItem.Contains("Min"))
+                Mychart.Series[strItem].Color = Color.Green;
+            if (strItem.Contains("Avr"))
+                Mychart.Series[strItem].Color = Color.Blue;
+            for (int i = 1; i < reader.lines.Length; i++)
 			{
 				MyTime time = new MyTime();
 				time.DateTo = dateto;
@@ -73,12 +79,18 @@ namespace ChartNQA
 					AddPoints(strItem, splitLine[headerDate], Double.Parse(splitLine[itemIndex]));
 				}
 			}
+            this.showlabel(strItem, showLabelMax);
             return (countPoints);
         }
 
 
         private void UpdateConstante(int nbPoints)
         {
+
+            //ChartArea3DStyle chart3d = new ChartArea3DStyle();
+            //chart3d.Enable3D = true;
+            //Mychart.ChartAreas[0].Area3DStyle = chart3d;
+            //Mychart.ChartAreas[0].Area3DStyle.Enable3D = true;
             Mychart.ChartAreas[0].AxisX.Interval = Mychart.Series[0].Points.Count / nbPoints;
             Mychart.ChartAreas[0].AxisX.MajorGrid.LineWidth = AxisXGrid;
             Mychart.ChartAreas[0].AxisY.MajorGrid.LineWidth = AxisYGrid;
@@ -118,9 +130,11 @@ namespace ChartNQA
         public bool AddSeries(string strItem)
         {
             Mychart.Series.Add(strItem);
-            Mychart.Series[strItem].ChartType = SeriesChartType.FastLine;
+            Mychart.Series[strItem].ChartType = SeriesChartType.Line;
+           // Mychart.Series[strItem].BorderWidth = 3;
             Mychart.Series[strItem].ChartArea = "ChartArea1";
             Mychart.Series[strItem].XValueType = ChartValueType.DateTime;
+            Mychart.Series[strItem].IsXValueIndexed = false;
             return true;
         }
 
@@ -159,6 +173,15 @@ namespace ChartNQA
             return true;
         }
 
+        private void showlabel(string strItem, bool value)
+        {
+            Mychart.Series[strItem].Points.FindMaxByValue().IsValueShownAsLabel = value;
+            Mychart.Series[strItem].Points.FindMaxByValue().LabelForeColor = Color.DarkRed;
+            Mychart.Series[strItem].Points.FindMaxByValue().Font = new System.Drawing.Font("Tahoma", 10, FontStyle.Bold);
+            Mychart.Series[strItem].Points.FindMinByValue().IsValueShownAsLabel = value;
+            Mychart.Series[strItem].Points.FindMinByValue().LabelForeColor = Color.DarkGreen;
+            Mychart.Series[strItem].Points.FindMinByValue().Font = new System.Drawing.Font("Tahoma", 10, FontStyle.Bold);
+        }
         public bool AddLegends()
         {
             return true;

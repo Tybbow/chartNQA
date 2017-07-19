@@ -124,5 +124,21 @@ namespace ChartNQA
             trackPoints.Maximum = myChart.UpdateValue(trackPoints.Value, textTitle.Text, textDateTo.Text, textDateFrom.Text, listBox1, reader);
             label8.Text = trackPoints.Maximum.ToString();
         }
+
+        private void checkLabelMax_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem == null)
+            {
+                checkLabelMax.Checked = false;
+                MessageBox.Show("Please, select value in list", "Error !", MessageBoxButtons.OK);
+                return;
+            }
+            if (checkLabelMax.Checked)
+                myChart.showLabelMax = true;
+            else
+                myChart.showLabelMax = false;
+            trackPoints.Maximum = myChart.UpdateValue(trackPoints.Value, textTitle.Text, textDateTo.Text, textDateFrom.Text, listBox1, reader);
+            label8.Text = trackPoints.Maximum.ToString();
+        }
     }
 }
